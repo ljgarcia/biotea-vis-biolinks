@@ -26,6 +26,7 @@
     "sniper": "sniper ."
   },
   "dependencies": {
+    "biotea-io-parser": "file:..\\biotea-io-parser",
     "biotea-vis-annotation": "file:..\\biotea-vis-annotation",
     "biotea-vis-similarity": "file:..\\biotea-vis-similarity",
     "biotea-vis-topicDistribution": "file:..\\biotea-vis-topicDistribution",

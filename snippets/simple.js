@@ -16,7 +16,9 @@ var articles = {
         {topic: '_107', id: 59472, altId: 11690545,
             title: 'A simple method for statistical analysis of intensity differences in microarray-derived gene expression data.'},
         {topic: '_107', id: 64840, altId: 11790258,
-            title: 'Evaluation of normalization procedures for oligonucleotide array data based on spiked cRNA controls.'}
+            title: 'Evaluation of normalization procedures for oligonucleotide array data based on spiked cRNA controls.'},
+        {topic: '_107', id: 244923, altId: 12429067,
+            title: 'The prenisilins.'}
     ],
     ta: [
         {topic: '_106', id: 14521963,
@@ -28,7 +30,10 @@ var articles = {
         {topic: '_107', id: 11690545, altId: 59472,
             title: 'A simple method for statistical analysis of intensity differences in microarray-derived gene expression data.'},
         {topic: '_107', id: 11790258, altId: 64840,
-            title: 'Evaluation of normalization procedures for oligonucleotide array data based on spiked cRNA controls.'}]
+            title: 'Evaluation of normalization procedures for oligonucleotide array data based on spiked cRNA controls.'},
+        {topic: '_107', id: 12429067, altId: 244923,
+            title: 'The prenisilins.'}
+    ]
 };
 
 var instance = new app({
