@@ -7,6 +7,10 @@
     border: solid 1px black;
 }
 
-.biolinks_distribution {
+.biolinks_vis_distribution {
+    background-color: white;
+}
+
+.biolinks_vis_annotations {
     background-color: white;
 }
