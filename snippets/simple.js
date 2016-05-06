@@ -39,8 +39,10 @@ var articles = {
 var instance = new app({
     el: appDiv,
     content: [
-        {label: 'ft', text: 'Full content', prefix: 'PMC', url: 'http://www.ncbi.nlm.nih.gov/pmc/articles/PMC'},
-        {label: 'ta', text: 'Title and abstract', prefix: 'PMID', url: 'http://www.ncbi.nlm.nih.gov/pubmed/'}],
+        {label: 'ft', text: 'Full content', prefix: 'PMC', altPrefix: 'PMID',
+            url: 'http://www.ncbi.nlm.nih.gov/pmc/articles/PMC'},
+        {label: 'ta', text: 'Title and abstract', prefix: 'PMID', altPrefix: 'PMC',
+            url: 'http://www.ncbi.nlm.nih.gov/pubmed/'}],
     topics: topics,
     articles: articles,
     paths: {ft: 'http://localhost:9090/snippets/data/pmc/', ta: 'http://localhost:9090/snippets/data/pubmed/'}
