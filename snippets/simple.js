@@ -45,5 +45,6 @@ var instance = new app({
             url: 'http://www.ncbi.nlm.nih.gov/pubmed/'}],
     topics: topics,
     articles: articles,
-    paths: {ft: 'http://localhost:9090/snippets/data/pmc/', ta: 'http://localhost:9090/snippets/data/pubmed/'}
+    paths: {ft: 'http://localhost:9090/snippets/data/pmc/', ta: 'http://localhost:9090/snippets/data/pubmed/'},
+    maxTerms: 50
 });
