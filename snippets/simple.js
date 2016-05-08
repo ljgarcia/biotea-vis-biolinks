@@ -46,5 +46,5 @@ var instance = new app({
     topics: topics,
     articles: articles,
     paths: {ft: 'http://localhost:9090/snippets/data/pmc/', ta: 'http://localhost:9090/snippets/data/pubmed/'},
-    maxTerms: 50
+    maxTerms: 40
 });
