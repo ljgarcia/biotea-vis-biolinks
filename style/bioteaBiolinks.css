@@ -14,3 +14,23 @@
 .biolinks_vis_annotations {
     background-color: white;
 }
+
+.biolinks_controls {
+    text-align: right;
+    position: static;
+    top: 0px;
+    width: 100%;
+    background-color: #555;
+    padding: 5px;
+}
+
+.biolinks_dialog {
+    text-align: left;
+    position: absolute;
+    padding: 2px;
+    width: 150px;
+    border: solid 1px black;
+    font-size: small;
+    z-index: 3000;
+    background-color: white;
+}
