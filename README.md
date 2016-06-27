@@ -15,3 +15,5 @@ to work. Such dependencies are:
 
 More information about what this project is about and the data used 
 at http://ljgarcia.github.io/biotea-biolinks/
+
+<img src="example.png"/>
