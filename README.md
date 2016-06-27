@@ -4,7 +4,7 @@ components using the TREC collection.
 
 This is a proof of concept so it includes npm packages under 
 development and not published, i.e., it relies on local dependencies 
-that should be downloaded and placed next to this project for it 
+that should be downloaded and and install as node_modules of this project for it 
 to work. Such dependencies are:
 
 * https://github.com/ljgarcia/biotea-io-parser
